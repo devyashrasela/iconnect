@@ -338,7 +338,6 @@ main::-webkit-scrollbar{
 }
 
 .section{
-    height:500px;
     width:100%;
     display: flex;
     align-items: center;
@@ -350,14 +349,78 @@ main::-webkit-scrollbar{
 .toi{
     height:100%;
     width:80%;
-    border:2px solid black;
     padding:3rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 15px;
-    background-color: #F8FCFF;
+    background-color: #ddf4fe;
     border: 1px solid #e8f5ff;
+}
+
+.toiHeading{
+    height: 100%;
+    width: 20%;
+    padding:1rem;
+    align-self: flex-start;
+}
+
+.toiMainHeading{
+    font-size:1.28rem;
+    font-weight:750;
+    color:#111827;
+    margin-bottom: 1rem;
+}
+
+.toiDesc{
+    font-size:1rem;
+    color:#111827;
+    color:rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
+.toiContent{
+    height:100%;
+    width:75%;
+    padding:1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
+.toiElement{
+    height:160px;
+    width:225px;
+    background-color: white;
+    margin:0.5rem;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topicIconContainer{
+    height:65%;
+    width:100%;
+    padding:20px;
+}
+
+.topicIcon{
+    height:100%;
+    width:4rem;
+    border-radius:50%;
+    background-color:#05aefd;
+}
+
+.topicName{
+    height:30%;
+    width:100%;
+    padding:0 20px;
+    font-weight:600;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    font-size:1rem;
+    color:#1F2739;
 }
 
 /* Animation */
